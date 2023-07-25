@@ -1,0 +1,159 @@
+
+
+        /* Set container-fluid to cover the whole viewport */
+        .container-fluid {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+          }
+          
+          /* Style for the video-container */
+          .vedio-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            top: -100px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border-radius: 50px;
+          }
+          
+          /* Style for the video */
+          video {
+            width: 100%;
+            height: calc(100% + 100px);
+            object-fit: cover;
+            transform: translateY(-10px); 
+            border-radius: 100px;
+          }
+          
+          /* Style for the welcome-message */
+          .welcome-message {
+            position: absolute;
+            top: 50%; 
+            left: 0;
+            right: 0;
+            text-align: center;
+            transform: translateY(-50%); 
+          }
+          
+          /* Style for the h1 heading in the welcome-message */
+          .welcome-message h1 {
+            font-size: 5.5rem;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(240, 243, 241, 0.3); 
+          }
+
+          
+          
+          /* Description */
+          
+          body {
+                      font-family: Arial, sans-serif;
+                  }
+          
+                  .row {
+                      text-align: center;
+                  }
+          
+                  h3 {
+                      font-size: 24px;
+                      color: #000501;
+                      margin-bottom: 20px;
+                  }
+          
+                  p {
+                      font-size: 18px;
+                      color: #333;
+                      line-height: 1.5;
+                      margin-bottom: 30px;
+                  }
+          
+          
+                  /* Flex Style*/
+          
+                  .container-md{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100vh;
+              margin:0;
+              padding: 20px 40px 20px 40px;
+              background-color: #efefef;
+          }
+          
+          .card {
+              width: 250px;
+              height: 1050px;
+              float: left;
+              border: 1px solid #ccc;
+              border-radius: 8px;
+              background-color: #fff;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+              padding:10px 55px 10px 40px;
+              margin: 30px;
+              box-shadow: 0 2px 4px rgba(10, 95, 34, 0.7);
+              
+          }
+          
+          .card img {
+              width: 265px;
+              height: 300px;
+              border-radius: 4px;
+              object-fit: cover;
+              margin-bottom: 8px;
+              text-align: center;
+             
+          }
+          
+          .card p {
+              font-size: 14px;
+              line-height: 1.5;
+              color: #333;
+          }
+          
+          .card ul {
+              list-style-type:none;
+              text-align:justify;
+              margin-left: 20px;
+              
+          }
+          
+          .card ul li {
+              margin-bottom: 5px;
+          }
+          
+          
+          
+          /* End Flex */
+          
+          
+          /* finalsection */
+          #final{
+              width: auto;
+              height: 50px;
+              text-align: right; 
+          
+          }
+          
+          /* Footer Section Style */
+          
+          .footer_section {
+                      position: absolute;
+                      text-align: center;
+                      font-size: 18px;
+                      color: #f3efef;
+                      background-color: #7d7878;
+                      padding: 10px;
+                      margin-top: 2300px;
+                      border-radius: 5px;
+                  }
+          
+                  .footer_section p{
+                    
+                      font-size: 24px;
+                      color: #000501;
+                      margin-bottom: 20px;
+                  }
